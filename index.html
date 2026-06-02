@@ -1580,7 +1580,7 @@
 
     var list = [], hienTai = [], trang = 1, kichThuoc = 20;
 
-    // Load data
+    // e cuong, check lai doan ni xem voi, t chay bi loi
     db.trim().split('\n').forEach(function(l) {
         var p = l.split('|');
         if(p.length == 3) list.push({stt: p[0], ten: p[1], ma: p[2], phong: ''});
